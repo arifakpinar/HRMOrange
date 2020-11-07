@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="8" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orange HRM Sanity Suite" duration-ms="7453" started-at="2020-11-06T21:28:43 EST" finished-at="2020-11-06T21:28:51 EST">
+    <groups>
+    </groups>
+    <test name="Orange HRM Sanity Tests" duration-ms="7453" started-at="2020-11-06T21:28:43 EST" finished-at="2020-11-06T21:28:51 EST">
+      <class name="com.qa.orangehrm.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@5bd73d1a]" name="setUp" is-config="true" duration-ms="3086" started-at="2020-11-06T21:28:43 EST" finished-at="2020-11-06T21:28:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.orangehrm.tests.LoginPageTest@5bd73d1a]" name="loginTest" duration-ms="1172" started-at="2020-11-06T21:28:46 EST" description="verify valid login credentials" finished-at="2020-11-06T21:28:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@5bd73d1a]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-11-06T21:28:48 EST" finished-at="2020-11-06T21:28:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrm.tests.LoginPageTest -->
+      <class name="com.qa.orangehrm.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@aec50a1]" name="setUp" is-config="true" duration-ms="2792" started-at="2020-11-06T21:28:48 EST" finished-at="2020-11-06T21:28:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoggedInUserAccount()[pri:3, instance:com.qa.orangehrm.tests.HomePageTest@aec50a1]" name="verifyLoggedInUserAccount" duration-ms="23" started-at="2020-11-06T21:28:50 EST" description="verify account name" finished-at="2020-11-06T21:28:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@aec50a1]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-11-06T21:28:50 EST" finished-at="2020-11-06T21:28:51 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrm.tests.HomePageTest -->
+    </test> <!-- Orange HRM Sanity Tests -->
+  </suite> <!-- Orange HRM Sanity Suite -->
+</testng-results>
